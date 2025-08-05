@@ -33,7 +33,7 @@ public class Main {
         double averageNumber = salary [0];
         for (int i = 0; i < salary.length; i++) {
             if (averageNumber > 0) {
-                averageNumber = sum / 4;
+                averageNumber = sum / salary.length;
             }
         }
         System.out.println("Средняя сумма трат за месяц составила " + averageNumber + " рублей");
